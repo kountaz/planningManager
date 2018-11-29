@@ -19,7 +19,6 @@ public class CustomerController {
 	
 	@RequestMapping("/customer/save")
 	public Customer saveCustomer(@RequestBody Customer customer){
-		
 		return repository.save(customer);
 	}
 	
